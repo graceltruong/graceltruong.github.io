@@ -1,17 +1,200 @@
 <html>
-
 <head>
-    <title>[Exam Code] Grace Truong Exam 2 MIS3033</title>
+
+    <title>[TLGF] Grace Truong Exam 2 MIS3033</title>
+
+    <style>
+        #main 
+        {
+            
+        }
+
+        #head 
+        {
+            display:flex;
+            flex-direction:row;
+        }
+
+        #topleft 
+        {
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            width:200px;
+            height:70px;
+            
+        }
+
+        #topright 
+        {
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            width: 200px;
+            height: 70px;
+            
+        }
+
+        #body1 
+        {
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            height: 80px;
+           
+        }
+
+        #body2 
+        {
+            display:flex;
+            flex-direction: row;
+        }
+
+        .t 
+        {
+            text-transform:uppercase;
+            background-color:lightskyblue;
+            border-radius:5px;
+        }
+
+        #left 
+        {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+        }
+
+        #up 
+        {
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            width: 510px;
+            height: 110px;
+
+        }
+
+        #down 
+        {
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            width: 510px;
+            height: 160px;
+        }
+
+        #right 
+        {
+            display:flex;
+            flex-direction:column;
+   
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            width: 280px;
+        }
+
+        #footer 
+        {
+            height:60px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-weight:bold;
+            font-size:20px;
+            color:grey;
+        }
+
+    </style>
 </head>
 
 <body>
-    <img src="static/head1.png" style="height:100px;" />
-    <img src="static/linkedin.png" style="height:100px;" />
-    <img src="static/html.svg" style="height:100px;" />
-    <img src="static/css.svg" style="height:100px;" />
-    <img src="static/javascript.svg" style="height:100px;" />
-    <img src="static/sqlite.svg" style="height:100px;" />
-    <img src="static/logo.svg" style="height:100px;" />
+
+    <div id="main">
+
+
+        <div id="head">
+
+            <div id="topleft">
+                MIS 3033 Exam 2 <br />
+                Grace Truong
+            </div>
+            
+            <div id="topright">
+                [TLGF]
+            </div>
+
+        </div>
+        
+
+        <div id="body1">
+
+            <img src="static/head2.png" style="height:60px; border-radius:50%;" />
+            <span>
+                Grace Truong
+                MIS Student
+            </span>
+            <a href="https://www.linkedin.com/">
+                <img style="width:30px;" src="static/linkedin.png" />
+            </a>
+        </div>
+
+
+        <div id="body2">
+           
+            <div id="left">
+                <div id="up">
+                    <span class="t">About Me:</span>
+                    <br />I am a MIS Student. I like programming and I am good at C#. I learned Entity<br />
+                    Framework to Database Manipulations. I know HTML, CSS and I started to<br />
+                    learn JavaScript. It is fun. Later I will learn C# .NET MVC dynamic web app<br />
+                    development and Web API development.
+                </div>
+
+                <div id="down">
+                    <div>
+                        <span class="t">Achievements</span>
+                        <br />
+                        <span style="display:flex; flex-direction:row; justify-content:center; height:100px;">
+                            <img src="static/html.svg" style="height:100px;" />
+                            <img src="static/css.svg" style="height:100px;" />
+                            <img src="static/javascript.svg" style="height:100px;" />
+                        </span>
+      
+                    </div>
+                </div>
+            </div>
+
+            <div id="right">
+                <span class="t">Recent News:</span>
+                <ul style="margin-bottom:0;">
+                    <li>Learned C#</li>
+                    <li>Learned Entity Framework</li>
+                    <li>Learned <img style="height:40px;" src="static/sqlite.svg" /></li>
+                </ul>
+            </div>
+    </div>
+
+        <div id="footer">
+            <span>
+                Developed by Grace Truong for MIS 3033 Exam 2
+            </span>
+
+            <img style="height:50px;" src="static/logo.svg" />
+        </div>
+
+    </div>
+
 </body>
 
 </html>
